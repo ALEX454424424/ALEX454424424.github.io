@@ -1,0 +1,76 @@
+
+#log{
+    background-color: darkgray;
+    background-image: url(../images/fonlog.jpg);
+}
+
+#reg{
+    background-color: gray;
+    background-image: url(../images/fonreg.jpg);
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: scroll;
+}
+
+img{
+    background-color: yellow;
+    border: solid 2px white;
+    border-radius: 18px;
+}
+
+.logform, .regform{
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+	box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, 0.75);
+    width: 300px;
+    margin: 30vh 40vw;
+    padding: 16px;
+}
+
+.logform{
+    background-color: gainsboro;
+    border: double 3px black;
+}
+
+.regform{
+    background-color: peachpuff;
+    border: double 3px black;
+}
+
+h1{
+    font-size: 150%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+input[type=checkbox]{
+    width: 10%;
+}
+
+button{
+    background-color: gold;
+    box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.75);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px 75px;
+    width: 150px;
+}
+
+a, a:visited{
+    text-decoration: none;
+	color: purple;
+}
+
+a:hover{
+	color: orangered;
+}
